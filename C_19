@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+enum Color
+{
+	RED,
+	YELLOW,
+	BLUE
+};
+int main()
+{
+	enum Color color = BLUE;
+	return 0;
+}
