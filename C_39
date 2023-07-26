@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+	//int name;
+	//name = Wei;
+
+	printf("Wei Xue\n");
+	printf("Wei\nXue\n");
+	printf("Wei");
+	printf("Xue\n");
+	return 0;
+
+}
