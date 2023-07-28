@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(void)
+{
+	int age;
+	int vip;
+	printf("请输入您的年龄：");
+	scanf("%d", &age);
+	if (age >= 18)
+	{
+		printf("您是否是会员：");
+		scanf("%d", &vip);
+		if (vip == 1) {
+			printf("您是会员，欢迎观看");
+		}
+		else
+		{
+			printf("对不起，您还不是会员，请充值后再观看");
+		}
+	}
+	else
+	{
+		printf("对不起，您还是未成年不能观看");
+	}
+	return 0;
+}
